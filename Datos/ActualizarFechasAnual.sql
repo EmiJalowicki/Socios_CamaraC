@@ -1,0 +1,179 @@
+-- NORMALIZACION ANUAL (2026)
+BEGIN TRANSACTION;
+
+UPDATE ANUAL_SOCIO
+SET FechaRegistro = '2026-01-01'
+WHERE NumSocio = 5435
+  AND Anio = 2026;
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-02-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-02-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-03-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-03-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-04-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-04-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-05-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-05-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-06-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-06-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-07-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-07-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-08-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-08-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-09-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-09-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-10-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-10-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-11-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-11-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-12-01'
+WHERE NumSocio = 5435
+  AND Periodo = '2026-12-01';
+
+UPDATE ANUAL_SOCIO
+SET FechaRegistro = '2026-01-01'
+WHERE NumSocio = 5409
+  AND Anio = 2026;
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-02-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-02-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-03-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-03-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-04-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-04-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-05-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-05-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-06-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-06-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-07-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-07-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-08-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-08-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-09-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-09-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-10-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-10-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-11-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-11-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-12-01'
+WHERE NumSocio = 5409
+  AND Periodo = '2026-12-01';
+
+UPDATE ANUAL_SOCIO
+SET FechaRegistro = '2026-02-01'
+WHERE NumSocio = 1692
+  AND Anio = 2026;
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-03-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-03-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-04-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-04-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-05-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-05-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-06-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-06-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-07-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-07-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-08-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-08-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-09-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-09-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-10-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-10-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-11-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-11-01';
+
+UPDATE CUOTA_SOCIO
+SET FechaPago = '2026-12-01'
+WHERE NumSocio = 1692
+  AND Periodo = '2026-12-01';
+
+COMMIT;

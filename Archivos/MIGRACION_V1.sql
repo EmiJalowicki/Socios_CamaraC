@@ -1,0 +1,3 @@
+BEGIN TRANSACTION;
+PRAGMA user_version = 1;
+COMMIT;
